@@ -1,0 +1,92 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputTarea {
+  flex: 1;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+td,
+th {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#task-summary {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+#task-summary p {
+  margin: 5px 0;
+}
+
+.buttonAgregar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.buttonEliminar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonEliminar:hover {
+  background-color: #c82333;
+}
+
+.completed {
+  text-decoration:line-through;
+  color: grey;
+}
